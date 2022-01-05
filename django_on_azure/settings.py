@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'a^ndivwn2c$tdb+by=c=_p&p(eiua4@v7j(=q
 DEBUG = os.environ.get('DEBUG', False)
 
 # ALLOWED_HOSTS = [os.environ.get('DJANGO_HOST', 'localhost')]
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
