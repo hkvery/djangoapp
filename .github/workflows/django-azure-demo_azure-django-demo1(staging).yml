@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'azure-django-demo1'
           slot-name: 'staging'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B58DC20B3E704FA089CDAC2F76CEAC27 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_202038CB316D4C2DA1D0772ADD0F9A2F }}
